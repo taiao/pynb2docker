@@ -73,7 +73,7 @@ cd /some/where/output/pandascsvcleaner
 sudo docker build -t pandascsvcleaner .
 ```
 
-With the image built, we can now push the raw ARFF file through for cleaning.
+With the image built, we can now push the raw CSV file through for cleaning.
 For this to work, we map the in/out directories from our directory structure
 into the Docker container (using the `-v` option) and we supply the input
 and output files via the `INPUT` and `OUTPUT` environment variables (using 
