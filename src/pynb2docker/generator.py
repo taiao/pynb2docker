@@ -132,6 +132,7 @@ def generate(input, docker_base_image, docker_instructions, output_dir):
             docker_file.write("COPY code.py /pynb2docker/code.py\n")
             docker_file.write('CMD ["python", "/pynb2docker/code.py"]\n')
 
+
 def main(args=None):
     """
     Runs the .nfo generation.
