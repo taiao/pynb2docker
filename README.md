@@ -20,7 +20,7 @@ Library for turning Python Jupyter Notebooks into Docker images.
 ## Example
 
 For this example we use the [pandas_filter_pipeline.ipynb](jupyter/pandas_filter_pipeline.ipynb)
-notebook and the additional [pandas_filter_pipeline.dockerfile](jupyter/pandas_filter_pipeline)
+notebook and the additional [pandas_filter_pipeline.dockerfile](jupyter/pandas_filter_pipeline.dockerfile)
 Docker instructions. This notebook contains a simple Pands filter setup, using
 a simple query to remove certain rows from the input CSV file and saving the cleaned 
 dataset as a new CSV file.
