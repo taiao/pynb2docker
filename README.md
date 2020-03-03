@@ -16,6 +16,12 @@ Library for turning Python Jupyter Notebooks into Docker images.
   cd pynb2docker
   ../venv/bin/pip install setup.py
   ```
+* From PyPI
+
+  ```commandline
+  ./venv/bin/pip install pynb2docker
+  ```
+
 
 ## Coding conventions
 
