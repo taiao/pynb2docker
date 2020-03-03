@@ -17,6 +17,25 @@ Library for turning Python Jupyter Notebooks into Docker images.
   ../venv/bin/pip install setup.py
   ```
 
+## Coding conventions
+
+You can use the *line magics* in your notebook to define all the required
+libraries that your code depends on, e.g., if you need *numpy*, then add this
+in a *code* cell: 
+
+```
+%pip install numpy
+```
+
+Of course, in order to take advantage of this *non-standard* line magic, you need 
+to install the [pip-magic](https://github.com/Carreau/pip_magic) library in your 
+environment:
+
+```commandline
+pip install pip_magic
+``` 
+
+
 ## Example
 
 For this example we use the [pandas_filter_pipeline.ipynb](jupyter/pandas_filter_pipeline.ipynb)
