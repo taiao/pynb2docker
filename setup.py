@@ -16,7 +16,7 @@ def _read(f):
 
 
 setup(
-    name="pynd2docker",
+    name="pynb2docker",
     description="Library for turning Python Jupyter Notebooks into Docker images.",
     long_description=(
         _read('DESCRIPTION.rst') + b'\n' +
