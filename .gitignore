@@ -134,6 +134,7 @@ dmypy.json
 *.bak
 .idea/
 *.iml
+test/
 
 
 
