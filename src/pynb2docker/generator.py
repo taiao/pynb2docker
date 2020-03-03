@@ -108,12 +108,8 @@ def generate(input, docker_base_image, docker_instructions, output_dir):
             if len(additional) > 0:
                 docker_file.write("\n")
                 docker_file.write("# additional instructions\n")
-                docker_file.write("RUN ")
                 for i, line in enumerate(additional):
-                    if (i > 0):
-                        docker_file.write(" && \\\n    ")
-                    docker_file.write(line)
-                docker_file.write("\n")
+                    docker_file.write("%s\n" % line.rstrip())
 
             # dependencies
             if len(deps) > 0:
