@@ -145,7 +145,7 @@ def main(args=None):
     parser.add_argument("-i", "--input", metavar="NOTEBOOK", dest="input", required=True, help="the Python notebook to convert")
     parser.add_argument("-b", "--docker_base_image", metavar="IMAGE", dest="docker_base_image", required=True, help="the Docker base image to use, e.g., 'python:3.7-buster'")
     parser.add_argument("-I", "--docker_instructions", metavar="FILE", dest="docker_instructions", required=False, help="file with additional docker instructions to use for generating the Dockerfile.")
-    parser.add_argument("-o", "--output_dir", metavar="DIR", dest="output_dir", required=True, default="*.imdb", help="the pattern for the files that contain the movie IDs")
+    parser.add_argument("-o", "--output_dir", metavar="DIR", dest="output_dir", required=True, help="the directory to place the generated files in")
     parser.add_argument("--verbose", action="store_true", dest="verbose", required=False, help="whether to output logging information")
     parser.add_argument("--debug", action="store_true", dest="debug", required=False, help="whether to output debugging information")
     parsed = parser.parse_args(args=args)
