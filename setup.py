@@ -19,7 +19,7 @@ setup(
     name="pynb2docker",
     description="Library for turning Python Jupyter Notebooks into Docker images.",
     long_description=(
-        _read('DESCRIPTION.rst') + b'\n' +
+        _read('DESCRIPTION.rst') + b'\n\n' +
         _read('CHANGES.rst')).decode('utf-8'),
     url="https://github.com/fracpete/pynb2docker",
     classifiers=[
