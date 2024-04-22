@@ -23,5 +23,5 @@ Steps:
 
 * start new release (version: `vX.Y.Z`)
 * enter release notes, i.e., significant changes since last release
-* upload `pynb2docker-X.Y.Z.tar.gz` previously generated with `setyp.py`
+* upload `pynb2docker-X.Y.Z.tar.gz` previously generated with `setup.py`
 * publish
